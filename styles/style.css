@@ -1,0 +1,219 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+
+
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.banner-part {
+    display: flex;
+    background-color: black;
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+
+}
+
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+}
+
+
+
+.half-width img {
+    width: 80%;
+    margin-bottom: -3px;
+}
+
+.watch-live {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 600;
+
+}
+
+
+
+/*----blogs part started-------*/
+
+.button-blogs-part {
+    display: flex;
+
+
+}
+
+
+.btn {
+    background-color: black;
+    margin-bottom: 30%;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-right: 5%;
+    border-radius: 10px;
+
+
+
+}
+
+.aside-button {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+#button1 {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 5px;
+    padding: 40px 80px;
+    color: aliceblue;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+
+
+}
+
+#button2 {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px 80px;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#button3 {
+    text-decoration: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 40px 80px;
+    color: black;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+
+.all-blogs {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+
+
+
+
+}
+
+.transfer-button {
+    text-decoration: none;
+    color: black;
+}
+
+.subscription {
+
+    text-align: center;
+    background-color: rgb(1, 35, 35);
+    color: white;
+    padding: 10px 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    margin-right: 40%;
+    border-radius: 10px;
+}
+
+.sub-information {
+    align-items: center;
+
+}
+
+h2:hover {
+    color: rgba(194, 134, 134, 0.958);
+}
+
+
+.footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+    background-color: black;
+    color: white;
+
+
+
+
+}
+
+hr {
+    color: white;
+    width: 80%;
+    margin-bottom: 5%;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+ul {
+    list-style: none;
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25%;
+
+}
+
+nav .menu>ul>li {
+    display: inline;
+    margin: 0 10px;
+}
+
+
+/*----website two started-------*/
+
+
+
+
+.flag-parts {
+
+    border: 1px solid rgb(149, 147, 147);
+    padding: 10px;
+    padding-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 45%;
+    box-shadow: solid white 2px 2px 8px;
+    border-radius: 10px;
+    display: flex;
+
+}
+
+
+.nation {
+    font-weight: 700;
+    font-size: large;
+    text-align: center;
+}
